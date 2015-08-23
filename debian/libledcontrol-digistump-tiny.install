@@ -1,4 +1,4 @@
-digistump-avr/libraries/LedControl/LedControl.h libraries/IO/digistump-tiny/LedControl
-digistump-avr/libraries/LedControl/keywords.txt libraries/IO/digistump-tiny/LedControl
-digistump-avr/libraries/LedControl/examples/ libraries/IO/digistump-tiny/LedControl
 digistump-avr/libraries/LedControl/LedControl.cpp libraries/IO/digistump-tiny/LedControl
+digistump-avr/libraries/LedControl/LedControl.h libraries/IO/digistump-tiny/LedControl
+digistump-avr/libraries/LedControl/examples/ libraries/IO/digistump-tiny/LedControl
+digistump-avr/libraries/LedControl/keywords.txt libraries/IO/digistump-tiny/LedControl

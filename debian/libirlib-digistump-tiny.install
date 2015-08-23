@@ -1,8 +1,8 @@
-digistump-avr/libraries/DigisparkIRLib/IRLib.cpp libraries/Communications/digistump-tiny/IRLib
-digistump-avr/libraries/DigisparkIRLib/examples/ libraries/Communications/digistump-tiny/IRLib
 digistump-avr/libraries/DigisparkIRLib/CHANGELOG.txt libraries/Communications/digistump-tiny/IRLib
-digistump-avr/libraries/DigisparkIRLib/LICENSE.txt libraries/Communications/digistump-tiny/IRLib
-digistump-avr/libraries/DigisparkIRLib/IRLibMatch.h libraries/Communications/digistump-tiny/IRLib
+digistump-avr/libraries/DigisparkIRLib/IRLib.cpp libraries/Communications/digistump-tiny/IRLib
 digistump-avr/libraries/DigisparkIRLib/IRLib.h libraries/Communications/digistump-tiny/IRLib
+digistump-avr/libraries/DigisparkIRLib/IRLibMatch.h libraries/Communications/digistump-tiny/IRLib
 digistump-avr/libraries/DigisparkIRLib/IRLibTimer.h libraries/Communications/digistump-tiny/IRLib
+digistump-avr/libraries/DigisparkIRLib/LICENSE.txt libraries/Communications/digistump-tiny/IRLib
 digistump-avr/libraries/DigisparkIRLib/README.txt libraries/Communications/digistump-tiny/IRLib
+digistump-avr/libraries/DigisparkIRLib/examples/ libraries/Communications/digistump-tiny/IRLib

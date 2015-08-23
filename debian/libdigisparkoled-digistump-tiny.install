@@ -1,9 +1,9 @@
+digistump-avr/libraries/DigisparkOLED/CHANGES.txt libraries/Display/digistump-tiny/DigisparkOLED
 digistump-avr/libraries/DigisparkOLED/DigisparkOLED.cpp libraries/Display/digistump-tiny/DigisparkOLED
-digistump-avr/libraries/DigisparkOLED/RESEARCH.txt libraries/Display/digistump-tiny/DigisparkOLED
-digistump-avr/libraries/DigisparkOLED/font8x16.h libraries/Display/digistump-tiny/DigisparkOLED
 digistump-avr/libraries/DigisparkOLED/DigisparkOLED.h libraries/Display/digistump-tiny/DigisparkOLED
 digistump-avr/libraries/DigisparkOLED/README.txt libraries/Display/digistump-tiny/DigisparkOLED
-digistump-avr/libraries/DigisparkOLED/font6x8.h libraries/Display/digistump-tiny/DigisparkOLED
-digistump-avr/libraries/DigisparkOLED/CHANGES.txt libraries/Display/digistump-tiny/DigisparkOLED
+digistump-avr/libraries/DigisparkOLED/RESEARCH.txt libraries/Display/digistump-tiny/DigisparkOLED
 digistump-avr/libraries/DigisparkOLED/TODO.txt libraries/Display/digistump-tiny/DigisparkOLED
 digistump-avr/libraries/DigisparkOLED/examples/ libraries/Display/digistump-tiny/DigisparkOLED
+digistump-avr/libraries/DigisparkOLED/font6x8.h libraries/Display/digistump-tiny/DigisparkOLED
+digistump-avr/libraries/DigisparkOLED/font8x16.h libraries/Display/digistump-tiny/DigisparkOLED

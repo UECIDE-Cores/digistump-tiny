@@ -1,5 +1,5 @@
-digistump-avr/libraries/DigisparkTinySoftPwm/keywords.txt libraries/IO/digistump-tiny/TinySoftPwm
+digistump-avr/libraries/DigisparkTinySoftPwm/Readme.md libraries/IO/digistump-tiny/TinySoftPwm
 digistump-avr/libraries/DigisparkTinySoftPwm/TinySoftPwm.cpp libraries/IO/digistump-tiny/TinySoftPwm
 digistump-avr/libraries/DigisparkTinySoftPwm/TinySoftPwm.h libraries/IO/digistump-tiny/TinySoftPwm
 digistump-avr/libraries/DigisparkTinySoftPwm/examples/ libraries/IO/digistump-tiny/TinySoftPwm
-digistump-avr/libraries/DigisparkTinySoftPwm/Readme.md libraries/IO/digistump-tiny/TinySoftPwm
+digistump-avr/libraries/DigisparkTinySoftPwm/keywords.txt libraries/IO/digistump-tiny/TinySoftPwm

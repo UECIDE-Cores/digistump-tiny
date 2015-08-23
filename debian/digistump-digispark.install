@@ -1,1 +1,3 @@
+digistump-avr/variants/digispark/pins_arduino.c boards/ATTiny/digistump-digispark
+digistump-avr/variants/digispark/pins_arduino.h boards/ATTiny/digistump-digispark
 uecide/digistump-digispark/ boards/ATTiny

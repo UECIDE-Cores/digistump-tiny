@@ -1,5 +1,5 @@
-digistump-avr/libraries/SPI/SPI.h libraries/Communications/digistump-tiny/SPI
-digistump-avr/libraries/SPI/keywords.txt libraries/Communications/digistump-tiny/SPI
-digistump-avr/libraries/SPI/examples/ libraries/Communications/digistump-tiny/SPI
 digistump-avr/libraries/SPI/SPI.cpp libraries/Communications/digistump-tiny/SPI
+digistump-avr/libraries/SPI/SPI.h libraries/Communications/digistump-tiny/SPI
+digistump-avr/libraries/SPI/examples/ libraries/Communications/digistump-tiny/SPI
+digistump-avr/libraries/SPI/keywords.txt libraries/Communications/digistump-tiny/SPI
 digistump-avr/libraries/SPI/library.properties libraries/Communications/digistump-tiny/SPI
