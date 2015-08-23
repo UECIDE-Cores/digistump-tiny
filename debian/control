@@ -1,0 +1,560 @@
+Source: digistump-tiny
+Section: cores
+XBSC-Family: avrtiny
+Priority: optional
+Maintainer: Matt Jenkins <matt@debian.majenko.co.uk>
+XBSC-TieCore: digistump-tiny
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: http://http://digistump.com
+
+Package: digistump-tiny
+Section: cores
+Architecture: all
+XBSC-Group: ATTiny
+Depends: avr-gcc
+Description: Digistump ATTiny based core
+ The Digispark is an Attiny85 based microcontroller development board similar
+ to the Arduino line, only cheaper, smaller, and a bit less powerful. With a
+ whole host of shields to extend its functionality and the ability to use the
+ familiar Arduino IDE the Digispark is a great way to jump into electronics,
+ or perfect for when an Arduino is too big or too much.
+
+Package: digistump-digispark
+Section: boards
+Architecture: all
+XBSC-Group: ATTiny
+Depends: digistump-tiny
+Description: Digistump Digispark
+ The Digispark is an Attiny85 based microcontroller development board similar
+ to the Arduino line, only cheaper, smaller, and a bit less powerful. With a
+ whole host of shields to extend its functionality and the ability to use the
+ familiar Arduino IDE the Digispark is a great way to jump into electronics,
+ or perfect for when an Arduino is too big or too much.
+
+Package: libadafruit-neopixel-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: Display
+XBSC-Subgroup: LED
+Depends: digistump-tiny
+Provides: Adafruit-UL-NeoPixel.h
+Description: Adafruit NeoPixel library for Digispark
+
+Package: libdigicdc-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: Serial
+Depends: digistump-tiny
+Provides: DigiCDC.h
+Description: CDC/ACM USB Serial for Digispark
+
+Package: libirlib-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: Protocols
+Depends: digistump-tiny
+Provides: IRLib.h
+Description: Infrared communications for Digispark
+
+Package: libdigijoystick-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: IO
+XBSC-Subgroup: Analog
+Depends: digistump-tiny
+Provides: DigiJoystick.h
+Description: USB Joystick interface for Digispark
+
+Package: libdigikeyboard-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: IO
+XBSC-Subgroup: Keyboard
+Depends: digistump-tiny
+Provides: DigiKeyboard.h
+Description: USB Keyboard interface for Digispark
+
+Package: libliquidcrystal-i2c-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: Display
+XBSC-Subgroup: LCD
+Depends: digistump-tiny
+Provides: LiquidCrystal-UL-I2C.h
+Description: I2C LCD library for Digispark
+
+Package: libdigimouse-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: IO
+XBSC-Subgroup: Digital
+Depends: digistump-tiny
+Provides: DigiMouse.h
+Description: I2C LCD library for Digispark
+
+Package: libdigisparkoled-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: Display
+XBSC-Subgroup: OLED
+Depends: digistump-tiny
+Provides: DigisparkOLED.h
+Description: Digispark OLED library
+
+Package: librcseq-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: Robotics
+Depends: digistump-tiny
+Provides: RcSeq.h
+Description: RcSeq library for Digispark
+ RcSeq library
+ =============
+ .
+ **RcSeq** is an asynchronous library for ATmega328P (**UNO**), ATmega2560 (**MEGA**), ATtiny84, ATtiny85 (**Digispark**) and ATtiny167 (**Digispark pro**) to easily create **servo's sequences** and/or to execute **short actions** from RC commands, from a digital input, or from a launch function called in the sketch.
+ .
+ The **A**pplication **P**rogramming **I**nterface (**API**) makes **RcSeq** library very easy to use.
+ .
+ Some definitions:
+ ----------------
+ .
+ * **Sequence**: is used to sequence one or several servos (sequence is defined in a structure in the user's sketch to be performed when the RC command rises). The Sequence table (structure) may contain some servo motions and some short actions to call at a predefined time. For each servo, start angle, end angle and speed are tunable.
+ .
+ * **Short Action**:   is used to perform a quick action (action is a short function defined in the user's sketch to be called when the RC command rises). The duration must be less than 20ms to not disturb the servo commands.
+ .
+ Some examples of use cases:
+ --------------------------
+ * **A landing gear retract:**
+ * Lock, door and leg servos sequenced with a single RC channel
+ * from a predefined position of the stick on the transmitter
+ * from the 2 positions "Aux Channel" of the transmitter
+ .
+ * **Navigation lights for aircraft:**
+ * Anticollision, beacon, landing lights commanded:
+ * from predefined positions of the stick on the transmitter
+ * from push-buttons in place of the stick potentiometer
+ .
+ .
+ * **Multi-switch:**
+ * Up to 8 digital pins driven from a single RC channel
+ * using the stick of the transmitter
+ * using 8 push-buttons in place of the stick potentiometer
+ .
+ * **Zodiac animation:**
+ * A pneumatic Zodiac dropped at sea and lifted back to the deck of a ship. Drop and lift sequences commanded:
+ * from predefined positions of the stick on the transmitter
+ * from a regular ON/OFF switch (for demo on table without RC set)
+ .
+ * **Animatronics sequences:**
+ .
+ * leg motion,
+ * mouth motion,
+ * eyes motion,
+ * etc.
+ .
+ Triggers:
+ --------
+ .
+ **Sequences** and **short actions** can be trigged by:
+ .
+ * a RC signal (eg: RC receiver output)
+ .
+ * from one or several **predefined positions of a stick** of the transmitter
+ .
+ * from one or several **push-button** (keyboard) replacing a a stick of the transmitter. (**RcSeq** assumes Push-Buttons associated Pulse duration are equidistant).
+ .
+ * from **Custom Keyboard** replacing a stick of the the transmitter. (The pulse durations can be defined independently for each Push-Button).
+ .
+ * from **Multi position switch** (2 pos switch, 3 pos switch, or more, eg. rotactor) replacing a stick of the the transmitter.
+ .
+ * a regular ON/OFF switch (no RC set required).
+ .
+ * a launch function call in the sketch.
+ .
+ API/methods:
+ -----------
+ * RcSeq_Init()
+ * RcSeq_DeclareSignal()
+ * RcSeq_DeclareStick()
+ * RcSeq_DeclareKeyboard()
+ * RcSeq_DeclareCustomKeyboard()
+ * RcSeq_DeclareMultiPosSwitch()
+ * RcSeq_SignalTimeout()
+ * RcSeq_DeclareServo()
+ * RcSeq_DeclareCommandAndSequence()
+ * RcSeq_DeclareCommandAndShortAction()
+ * RcSeq_LaunchSequence()
+ * RcSeq_LaunchShortAction()
+ * RcSeq_Refresh()
+ * RcSeq_LibVersion()
+ * RcSeq_LibRevision()
+ * RcSeq_LibTextVersionRevision()
+ .
+ Macros and constants:
+ --------------------
+ * const SequenceSt_t
+ * const KeyMap_t
+ * RC_SEQUENCE()
+ * RC_CUSTOM_KEYBOARD()
+ * SHORT_ACTION_TO_PERFORM()
+ * MOTION_WITH_SOFT_START_AND_STOP()
+ * MOTION_WITHOUT_SOFT_START_AND_STOP()
+ * CENTER_VALUE_US
+ * RC_SEQ_START_CONDITION
+ * RC_SEQ_END_OF_SEQ
+ .
+ Design considerations:
+ ---------------------
+ .
+ The **RcSeq** library requires 3 other libraries written by the same author:
+ .
+ 1. **TinyPinChange**:  a library to catch asynchronously the input change using Pin Change Interruption capability of the AVR microcontroller.
+ .
+ 2. **SoftRcPulseIn**:  a library to catch asynchronously the input pulses using **TinyPinChange** library.
+ .
+ 3. **SoftRcPulseOut**: a library mainly based on the **SoftwareServo** library, but with a better pulse generation to limit jitter and with some other enhancements.
+ .
+ CAUTION:
+ -------
+ The end user shall also use asynchronous programmation method in the loop() function (no blocking functions such as delay() or pulseIn()).
+ .
+ Contact
+ -------
+ .
+ If you have some ideas of enhancement, please contact me by clicking on: [RC Navy](http://p.loussouarn.free.fr/contact.html).
+
+Package: libdigisparkrgb-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: IO
+XBSC-Subgroup: Digital
+Depends: digistump-tiny
+Provides: DigisparkRGB.h
+Description: Digispark RGB Software PWM
+
+Package: libsimpleservo-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: Motor
+XBSC-Subgroup: Stepper
+Depends: digistump-tiny
+Provides: SimpleServo.h
+Description: SimpleServo library for Digipark
+ ==================
+ SimpleServo - v0.8
+ ==================
+ .
+ "Shh, ya hear that?  Me neither… It's simple… Maybe *too* simple…"
+ .
+ This is a simplistic library to bundle up and generalize bit-banging servo PWM.  It has some good points and trade-offs and is primarily being developed for the Digispark.
+ .
+ First the good:
+ - Can control any number of servos
+ - All software, no fancy hardware required
+ - Produces a relatively clean signal
+ - Allows (or will) tuning pulse parameters to suit the widely varied tastes of different servos
+ - A single instance can be used with multiple similar servos
+ .
+ Now some limitations:
+ - It can only control one servo at a time
+ - The program can't do anything else while the servo is being signaled
+ - Documentation is incomplete (at the moment)
+ .
+ When typical servos stop receiving a control signal, they stay where they are; while they won't actively hold their position, most require some force to backdrive.  So if that's enough for your project, you can move each servo in turn, and sample inputs, set LEDs and such in between.
+ .
+ =======
+ Methods
+ =======
+ .
+ See comments in SimpleServo.h (and SimpleServo.m) for now.
+ .
+ *(( TODO: Document the additional methods in detail, add an example ))*
+ .
+ =======
+ License
+ =======
+ .
+ The MIT License (MIT)
+ Copyright (c) 2013 Benjamin Holt
+ .
+ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Package: libsoftrcpulsein-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: IO
+XBSC-Subgroup: Digital
+Depends: digistump-tiny
+Provides: SoftRcPulseIn.h
+Description: Software RC Pulse Input for Digispark
+ SoftRcPulseIn library
+ ======================
+ .
+ **SoftRcPulseIn** is an asynchronous library designed to read RC pulse signals. It is a non-blocking version of arduino **pulseIn()** function.
+ .
+ Some examples of use cases:
+ -------------------------
+ * **RC Servo/ESC/Brushless Controller**
+ * **Multi-switch (RC Channel to digital outputs converter)** (look at **RcSeq** library)
+ * **Servo sequencer** (look at **RcSeq** library which uses **SoftRcPulseOut** library)
+ * **RC Robot using wheels with modified Servo to support 360° rotation**
+ * **RC pulse stretcher** (in conjunction with **SoftRcPulseOut** library)
+ .
+ Supported Arduinos:
+ ------------------
+ * **ATmega328 (UNO)**
+ * **ATmega2560 (MEGA)**
+ * **ATtiny84 (Standalone)**
+ * **ATtiny85 (Standalone or Digispark)**
+ * **ATtiny167 (Digispark pro)**
+ .
+ Tip and Tricks:
+ --------------
+ Develop your project on an arduino UNO or MEGA, and then shrink it by loading the sketch in an ATtiny or Digispark (pro).
+ .
+ API/methods:
+ -----------
+ * attach()
+ * available()
+ * width_us()
+ * timeout()
+ * LibVersion()
+ * LibRevision()
+ * LibTextVersionRevision()
+ .
+ Design considerations:
+ ---------------------
+ The **SoftRcPulseIn** library relies the **TinyPinChange** library. This one shall be included in the sketch as well.
+ .
+ On the arduino MEGA, as all the pins do not support "pin change interrupt", only the following pins are supported:
+ .
+ * 10 -> 15
+ * 50 -> 53
+ * A8 -> A15
+ .
+ On other devices (ATmega328, ATtiny84, ATtiny85 and ATtiny167), all the pins are usable.
+ .
+ Contact
+ -------
+ .
+ If you have some ideas of enhancement, please contact me by clicking on: [RC Navy](http://p.loussouarn.free.fr/contact.html).
+
+Package: libsoftrcpulseout-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: IO
+XBSC-Subgroup: Digital
+Depends: digistump-tiny
+Provides: SoftRcPulseOut.h
+Description: Software RC Pulse Output for Digispark
+ SoftRcPulseOut library
+ ======================
+ .
+ **SoftRcPulseOut** is pseudo-asynchronous library designed to generate RC pulse signals. RC pulse signals are intended to command servos, **E**lectronic **S**peed **C**ontrollers (**ESC**), Brushless Controllers and any devices expecting such a command signal.
+ .
+ Some examples of use cases:
+ -------------------------
+ * **Servo/ESC/Brushless Controller tester**
+ * **Servo sequencer** (look at RcSeq library which uses _SoftRcPulseOut_)
+ * **Robot wheels using modified Servo to support 360° rotation**
+ * **RC pulse stretcher** (in conjunction with **SoftRcPulseIn** library)
+ .
+ Supported Arduinos:
+ ------------------
+ * **ATmega368 (UNO)**
+ * **ATmega2560 (MEGA)**
+ * **ATtiny84 (Standalone)**
+ * **ATtiny85 (Standalone or Digispark)**
+ * **ATtiny167 (Digispark pro)**
+ .
+ Tip and Tricks:
+ --------------
+ Develop your project on an arduino UNO or MEGA, and then shrink it by loading the sketch in an ATtiny or Digispark (pro).
+ .
+ API/methods:
+ -----------
+ * The **SoftRcPulseOut** library uses the same API as the regular **SoftwareServo** library:
+ * attach()
+ * attached()
+ * detach()
+ * write()
+ * read()
+ * setMinimumPulse()
+ * setMaximumPulse()
+ * refresh()
+ .
+ * Two additional methods allow using µs rather than angle in ° :
+ * write_us()
+ * read_us()
+ .
+ * Methods for version management:
+ * LibVersion
+ * LibRevision
+ * LibTextVersionRevision
+ .
+ * Synchronization:
+ * By giving **_1_** or **_true_** as optional argument for the **SoftRcPulseOut::refresh()** method, the pulses are refreshed immediately (without waiting for the usual 20ms).
+ .
+ * the **SoftRcPulseOut::refresh()** method returns **_1_** or **_true_** when the pulses have been refreshed. Testing this return value provides a 20ms timer.
+ .
+ Design considerations:
+ ---------------------
+ The **SoftRcPulseOut** library relies on a 8 bit timer. This allows using it even on little MCU (such as ATtiny85) which do not have any 16 bit timer.
+ .
+ Whereas a 8 bit timer is used for pulse generation, the jitter is limited by using anticipated interrupt masking.
+ .
+ Interrups are only masked during rising and falling edges of the pulse signals.
+ .
+ CAUTION:
+ -------
+ The end user shall also use asynchronous programmation method in the loop() function (not too long blocking functions such as delay(1000): the **SoftRcPulseOut::refresh()** method shall be called at least every 50ms).
+ .
+ Contact
+ -------
+ .
+ If you have some ideas of enhancement, please contact me by clicking on: [RC Navy](http://p.loussouarn.free.fr/contact.html).
+
+Package: libsoftserial-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: Serial
+Depends: digistump-tiny
+Provides: SoftSerial.h
+Description: Software Serial for DigiSpark
+
+Package: libtinypinchange-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: IO
+XBSC-Subgroup: Digital
+Depends: digistump-tiny
+Provides: TinyPinChange.h
+Description: TinyPinChange library for digistump-tiny
+
+Package: libtinysoftpwm-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: IO
+XBSC-Subgroup: Digital
+Depends: digistump-tiny
+Provides: TinySoftPwm.h
+Description: TinySoftPwm library for digistump-tiny
+
+Package: libdigiusb-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: Serial
+Depends: digistump-tiny
+Provides: DigiUSB.h
+Description: DigiUSB library for digistump-tiny
+
+Package: libledcontrol-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: IO
+XBSC-Subgroup: Digital
+Depends: digistump-tiny
+Provides: LedControl.h
+Description: LedControl library for digistump-tiny
+
+Package: liblpd8806-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: IO
+XBSC-Subgroup: Digital
+Depends: digistump-tiny
+Provides: LPD8806.h
+Description: LPD8806 library for digistump-tiny
+
+Package: libarduinonunchuk-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: IO
+XBSC-Subgroup: Digital
+Depends: digistump-tiny
+Provides: ArduinoNunchuk.h
+Description: ArduinoNunchuk library for digistump-tiny
+
+Package: libonewire-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: Protocols
+Depends: digistump-tiny
+Provides: OneWire.h
+Description: OneWire library for digistump-tiny
+
+Package: librf24-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: Networking
+Depends: digistump-tiny
+Provides: RF24.h
+Description: RF24 library for digistump-tiny
+
+Package: libspi-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: SPI
+Depends: digistump-tiny
+Provides: SPI.h
+Description: SPI library for digistump-tiny
+
+Package: libtinyrtclib-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: Time
+XBSC-Subgroup: RTC
+Depends: digistump-tiny
+Provides: TinyRTClib.h
+Description: TinyRTClib library for digistump-tiny
+
+Package: libtinywirem-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: Protocols
+Depends: digistump-tiny
+Provides: TinyWireM.h
+Description: TinyWireM library for digistump-tiny
+
+Package: libvirtualwire-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: Protocols
+Depends: digistump-tiny
+Provides: VirtualWire.h
+Description: VirtualWire library for digistump-tiny
+
+Package: libwire-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: I2C
+Depends: digistump-tiny
+Provides: Wire.h
+Description: Wire library for digistump-tiny
+
+Package: libws2811-digistump-tiny
+Section: libraries
+Architecture: all
+XBSC-Group: IO
+XBSC-Subgroup: Digital
+Depends: digistump-tiny
+Provides: WS2811.h
+Description: WS2811 library for digistump-tiny
+
+
+

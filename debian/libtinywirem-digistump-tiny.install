@@ -1,0 +1,6 @@
+hardware/digistump/avr/libraries/TinyWireM/TinyWireM.h libraries/Communications/digistump-tiny/TinyWireM
+hardware/digistump/avr/libraries/TinyWireM/keywords.txt libraries/Communications/digistump-tiny/TinyWireM
+hardware/digistump/avr/libraries/TinyWireM/TinyWireM.cpp libraries/Communications/digistump-tiny/TinyWireM
+hardware/digistump/avr/libraries/TinyWireM/USI_TWI_Master.h libraries/Communications/digistump-tiny/TinyWireM
+hardware/digistump/avr/libraries/TinyWireM/examples/ libraries/Communications/digistump-tiny/TinyWireM
+hardware/digistump/avr/libraries/TinyWireM/USI_TWI_Master.cpp libraries/Communications/digistump-tiny/TinyWireM

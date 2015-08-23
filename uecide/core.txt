@@ -1,0 +1,37 @@
+name=digistump-tiny
+description=Digistump ATTiny core
+compiler=avr-gcc
+
+core.library.api=tiny
+core.flags=-DF_CPU=${build.f_cpu}::-DARDUINO=${core.version}::-DARDUINO_${board}::-DARDUINO_ARCH_AVR::-Os::-MMD
+core.header=Arduino.h
+core.version=158
+core.revision=5
+version=158
+revision=5
+
+family=avrtiny
+
+library.path=libraries
+examples.path=examples
+
+board=_UNKNOWN_BOARD_
+
+upload.micronucleus.name=Upload using Micronucleus bootloader
+upload.micronucleus.command.linux_arm=${core.root}/tools/linux_arm/micronucleus::--no-ansi::--timeout::20::--run::${filename}.hex
+upload.micronucleus.command.linux_amd64=${core.root}/tools/linux_64/micronucleus::--no-ansi::--timeout::20::--run::${filename}.hex
+upload.micronucleus.command.linux_i386=${core.root}/tools/linux_32/micronucleus::--no-ansi::--timeout::20::--run::${filename}.hex
+upload.micronucleus.command.macosx=${core.root}/tools/macosx/micronucleus::--no-ansi::--timeout::20::--run::${filename}.hex
+upload.micronucleus.command.windows=${core.root}/tools/windows/micronucleus::--no-ansi::--timeout::20::--run::${filename}.hex
+upload.micronucleus.dtr=no
+upload.micronucleus.rts=no
+
+upload.protocol=micronucleus
+sketch.upload=micronucleus
+
+icon.128=icons/digi128.png
+icon.64=icons/digi64.png
+icon.48=icons/digi48.png
+icon.32=icons/digi32.png
+icon.22=icons/digi22.png
+icon.16=icons/digi16.png

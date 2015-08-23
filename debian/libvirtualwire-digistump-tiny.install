@@ -1,0 +1,10 @@
+hardware/digistump/avr/libraries/VirtualWire/LICENSE libraries/Communications/digistump-tiny/VirtualWire
+hardware/digistump/avr/libraries/VirtualWire/Makefile libraries/Communications/digistump-tiny/VirtualWire
+hardware/digistump/avr/libraries/VirtualWire/CHANGES libraries/Communications/digistump-tiny/VirtualWire
+hardware/digistump/avr/libraries/VirtualWire/examples/ libraries/Communications/digistump-tiny/VirtualWire
+hardware/digistump/avr/libraries/VirtualWire/README libraries/Communications/digistump-tiny/VirtualWire
+hardware/digistump/avr/libraries/VirtualWire/keywords.txt libraries/Communications/digistump-tiny/VirtualWire
+hardware/digistump/avr/libraries/VirtualWire/VirtualWire.cpp libraries/Communications/digistump-tiny/VirtualWire
+hardware/digistump/avr/libraries/VirtualWire/MANIFEST libraries/Communications/digistump-tiny/VirtualWire
+hardware/digistump/avr/libraries/VirtualWire/VirtualWire.h libraries/Communications/digistump-tiny/VirtualWire
+hardware/digistump/avr/libraries/VirtualWire/util/ libraries/Communications/digistump-tiny/VirtualWire

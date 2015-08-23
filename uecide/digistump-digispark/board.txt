@@ -1,0 +1,33 @@
+variant=digistump-digispark
+description=Digispark Development Board
+upload.speed=19200
+upload.maximum_size=7616
+build.mcu=attiny85
+build.f_cpu=16500000L
+build.core=tiny
+build.variant=attiny85
+group=Digistump
+family=avrtiny
+version=0.1
+revision=7
+core=digispark
+board=AVR_DIGISPARK
+
+usb.vid = 16d0
+usb.pid = 0753
+usb.programmer = micronucleus
+
+upload.micronucleus.name=Upload using Micronucleus bootloader
+upload.micronucleus.command.linux_arm=${board.root}/tools/linux_arm/micronucleus::--no-ansi::--timeout::20::--run::${filename}.hex
+upload.micronucleus.command.linux_amd64=${board.root}/tools/linux_64/micronucleus::--no-ansi::--dump-progress::--timeout::20::--run::${filename}.hex
+upload.micronucleus.command.linux_i386=${board.root}/tools/linux_32/micronucleus::--no-ansi::--timeout::20::--run::${filename}.hex
+upload.micronucleus.command.macosx=${board.root}/tools/macosx/micronucleus::--no-ansi::--timeout::20::--run::${filename}.hex
+upload.micronucleus.command.windows=${board.root}/tools/windows/micronucleus::--no-ansi::--timeout::20::--run::${filename}.hex
+upload.micronucleus.percent=,progress:(\\d+.\\d+)
+upload.micronucleus.percent.multiply=100
+upload.micronucleus.using=hid
+upload.micronucleus.message=>>> Insert your Digispark board now <<<
+
+upload.protocol=micronucleus
+sketch.upload=micronucleus
+

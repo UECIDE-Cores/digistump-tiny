@@ -1,0 +1,5 @@
+hardware/digistump/avr/libraries/DigisparkLCD/info libraries/Display/digistump-tiny/LiquidCrystal_I2C
+hardware/digistump/avr/libraries/DigisparkLCD/examples libraries/Display/digistump-tiny/LiquidCrystal_I2C
+hardware/digistump/avr/libraries/DigisparkLCD/keywords.txt libraries/Display/digistump-tiny/LiquidCrystal_I2C
+hardware/digistump/avr/libraries/DigisparkLCD/LiquidCrystal_I2C.h libraries/Display/digistump-tiny/LiquidCrystal_I2C
+hardware/digistump/avr/libraries/DigisparkLCD/LiquidCrystal_I2C.cpp libraries/Display/digistump-tiny/LiquidCrystal_I2C
