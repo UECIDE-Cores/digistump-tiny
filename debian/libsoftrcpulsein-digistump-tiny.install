@@ -1,5 +1,5 @@
 digistump-avr/libraries/DigisparkSoftRcPulseIn/keywords.txt libraries/IO/digistump-tiny/SoftRcPulseIn
 digistump-avr/libraries/DigisparkSoftRcPulseIn/SoftRcPulseIn.h libraries/IO/digistump-tiny/SoftRcPulseIn
-digistump-avr/libraries/DigisparkSoftRcPulseIn/examples/ libraries/IO/digistump-tiny/SoftRcPulseIn
 digistump-avr/libraries/DigisparkSoftRcPulseIn/Readme.md libraries/IO/digistump-tiny/SoftRcPulseIn
+digistump-avr/libraries/DigisparkSoftRcPulseIn/examples/ libraries/IO/digistump-tiny/SoftRcPulseIn
 digistump-avr/libraries/DigisparkSoftRcPulseIn/SoftRcPulseIn.cpp libraries/IO/digistump-tiny/SoftRcPulseIn

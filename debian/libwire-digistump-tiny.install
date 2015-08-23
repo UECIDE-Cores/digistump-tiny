@@ -1,6 +1,6 @@
 digistump-avr/libraries/Wire/Wire.h libraries/Communications/digistump-tiny/Wire
 digistump-avr/libraries/Wire/keywords.txt libraries/Communications/digistump-tiny/Wire
-digistump-avr/libraries/Wire/Wire.cpp libraries/Communications/digistump-tiny/Wire
 digistump-avr/libraries/Wire/USI_TWI_Master.h libraries/Communications/digistump-tiny/Wire
-digistump-avr/libraries/Wire/examples/ libraries/Communications/digistump-tiny/Wire
+digistump-avr/libraries/Wire/Wire.cpp libraries/Communications/digistump-tiny/Wire
 digistump-avr/libraries/Wire/USI_TWI_Master.cpp libraries/Communications/digistump-tiny/Wire
+digistump-avr/libraries/Wire/examples/ libraries/Communications/digistump-tiny/Wire

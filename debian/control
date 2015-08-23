@@ -13,6 +13,7 @@ Section: cores
 Architecture: all
 XBSC-Group: ATTiny
 Depends: avr-gcc
+Recommends: libadafruit-neopixel-digistump-tiny, libdigicdc-digistump-tiny, libirlib-digistump-tiny, libdigijoystick-digistump-tiny, libdigikeyboard-digistump-tiny, libliquidcrystal-i2c-digistump-tiny, libdigimouse-digistump-tiny, libdigisparkoled-digistump-tiny, librcseq-digistump-tiny, libdigisparkrgb-digistump-tiny, libsimpleservo-digistump-tiny, libsoftrcpulsein-digistump-tiny, libsoftrcpulseout-digistump-tiny, libsoftserial-digistump-tiny, libtinypinchange-digistump-tiny, libtinysoftpwm-digistump-tiny, libdigiusb-digistump-tiny, libledcontrol-digistump-tiny, liblpd8806-digistump-tiny, libarduinonunchuk-digistump-tiny, libonewire-digistump-tiny, librf24-digistump-tiny, libspi-digistump-tiny, libtinyrtclib-digistump-tiny, libtinywirem-digistump-tiny, libvirtualwire-digistump-tiny, libwire-digistump-tiny, libws2811-digistump-tiny
 Description: Digistump ATTiny based core
  The Digispark is an Attiny85 based microcontroller development board similar
  to the Arduino line, only cheaper, smaller, and a bit less powerful. With a

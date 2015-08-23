@@ -1,5 +1,5 @@
 digistump-avr/libraries/TinyRTClib/TinyRTClib.cpp libraries/Time/digistump-tiny/TinyRTClib
-digistump-avr/libraries/TinyRTClib/examples/ libraries/Time/digistump-tiny/TinyRTClib
 digistump-avr/libraries/TinyRTClib/TinyRTClib.h libraries/Time/digistump-tiny/TinyRTClib
+digistump-avr/libraries/TinyRTClib/examples/ libraries/Time/digistump-tiny/TinyRTClib
 digistump-avr/libraries/TinyRTClib/README.md libraries/Time/digistump-tiny/TinyRTClib
 digistump-avr/libraries/TinyRTClib/keywords.txt libraries/Time/digistump-tiny/TinyRTClib

@@ -1,9 +1,9 @@
 digistump-avr/libraries/DigisparkRcSeq/Examples/UneVoieVers8/ libraries/Robotics/digistump-tiny/RcSeq/examples
-digistump-avr/libraries/DigisparkRcSeq/Examples/RcSeqAdvancedDoors/ libraries/Robotics/digistump-tiny/RcSeq/examples
 digistump-avr/libraries/DigisparkRcSeq/RcSeq.cpp libraries/Robotics/digistump-tiny/RcSeq
+digistump-avr/libraries/DigisparkRcSeq/Examples/RcSeqAdvancedDoors/ libraries/Robotics/digistump-tiny/RcSeq/examples
 digistump-avr/libraries/DigisparkRcSeq/Examples/RcSeqZodiac/ libraries/Robotics/digistump-tiny/RcSeq/examples
-digistump-avr/libraries/DigisparkRcSeq/keywords.txt libraries/Robotics/digistump-tiny/RcSeq
 digistump-avr/libraries/DigisparkRcSeq/RcSeq.h libraries/Robotics/digistump-tiny/RcSeq
+digistump-avr/libraries/DigisparkRcSeq/keywords.txt libraries/Robotics/digistump-tiny/RcSeq
 digistump-avr/libraries/DigisparkRcSeq/Readme.md libraries/Robotics/digistump-tiny/RcSeq
 digistump-avr/libraries/DigisparkRcSeq/Examples/DigiRcSeqZodiac/ libraries/Robotics/digistump-tiny/RcSeq/examples
 digistump-avr/libraries/DigisparkRcSeq/Examples/RcSeqDemo/ libraries/Robotics/digistump-tiny/RcSeq/examples

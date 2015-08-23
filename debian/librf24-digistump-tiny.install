@@ -1,10 +1,10 @@
 digistump-avr/libraries/RF24/tests/ libraries/Communications/digistump-tiny/RF24
 digistump-avr/libraries/RF24/wikidoc.xslt libraries/Communications/digistump-tiny/RF24
 digistump-avr/libraries/RF24/examples/ libraries/Communications/digistump-tiny/RF24
-digistump-avr/libraries/RF24/FAQ libraries/Communications/digistump-tiny/RF24
 digistump-avr/libraries/RF24/Doxyfile libraries/Communications/digistump-tiny/RF24
-digistump-avr/libraries/RF24/RF24_config.h libraries/Communications/digistump-tiny/RF24
+digistump-avr/libraries/RF24/FAQ libraries/Communications/digistump-tiny/RF24
 digistump-avr/libraries/RF24/RF24.h libraries/Communications/digistump-tiny/RF24
+digistump-avr/libraries/RF24/RF24_config.h libraries/Communications/digistump-tiny/RF24
 digistump-avr/libraries/RF24/nRF24L01.h libraries/Communications/digistump-tiny/RF24
 digistump-avr/libraries/RF24/RF24.cpp libraries/Communications/digistump-tiny/RF24
 digistump-avr/libraries/RF24/doxygen-custom.css libraries/Communications/digistump-tiny/RF24

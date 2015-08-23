@@ -1,12 +1,12 @@
 digistump-avr/libraries/DigisparkMouse/USB-IDs-for-free.txt libraries/IO/digistump-tiny/DigiMouse
-digistump-avr/libraries/DigisparkMouse/osccal.o libraries/IO/digistump-tiny/DigiMouse
 digistump-avr/libraries/DigisparkMouse/MouseReadme.txt libraries/IO/digistump-tiny/DigiMouse
+digistump-avr/libraries/DigisparkMouse/osccal.o libraries/IO/digistump-tiny/DigiMouse
 digistump-avr/libraries/DigisparkMouse/usbdrvasm18-crc.inc libraries/IO/digistump-tiny/DigiMouse
-digistump-avr/libraries/DigisparkMouse/usbportability.h libraries/IO/digistump-tiny/DigiMouse
 digistump-avr/libraries/DigisparkMouse/usbdrvasm16.inc libraries/IO/digistump-tiny/DigiMouse
+digistump-avr/libraries/DigisparkMouse/usbportability.h libraries/IO/digistump-tiny/DigiMouse
 digistump-avr/libraries/DigisparkMouse/usbdrvasm.S libraries/IO/digistump-tiny/DigiMouse
-digistump-avr/libraries/DigisparkMouse/usbconfig-prototype.h libraries/IO/digistump-tiny/DigiMouse
 digistump-avr/libraries/DigisparkMouse/osccal.h libraries/IO/digistump-tiny/DigiMouse
+digistump-avr/libraries/DigisparkMouse/usbconfig-prototype.h libraries/IO/digistump-tiny/DigiMouse
 digistump-avr/libraries/DigisparkMouse/usbdrvasm128.inc libraries/IO/digistump-tiny/DigiMouse
 digistump-avr/libraries/DigisparkMouse/examples/ libraries/IO/digistump-tiny/DigiMouse
 digistump-avr/libraries/DigisparkMouse/usbdrvasm12.inc libraries/IO/digistump-tiny/DigiMouse
@@ -27,8 +27,8 @@ digistump-avr/libraries/DigisparkMouse/ArduinoNotes.txt libraries/IO/digistump-t
 digistump-avr/libraries/DigisparkMouse/License.txt libraries/IO/digistump-tiny/DigiMouse
 digistump-avr/libraries/DigisparkMouse/osccal.c.lst libraries/IO/digistump-tiny/DigiMouse
 digistump-avr/libraries/DigisparkMouse/asmcommon.inc libraries/IO/digistump-tiny/DigiMouse
-digistump-avr/libraries/DigisparkMouse/usbdrvasm165.inc libraries/IO/digistump-tiny/DigiMouse
 digistump-avr/libraries/DigisparkMouse/USB-ID-FAQ.txt libraries/IO/digistump-tiny/DigiMouse
-digistump-avr/libraries/DigisparkMouse/usbdrv.h libraries/IO/digistump-tiny/DigiMouse
+digistump-avr/libraries/DigisparkMouse/usbdrvasm165.inc libraries/IO/digistump-tiny/DigiMouse
 digistump-avr/libraries/DigisparkMouse/CommercialLicense.txt libraries/IO/digistump-tiny/DigiMouse
+digistump-avr/libraries/DigisparkMouse/usbdrv.h libraries/IO/digistump-tiny/DigiMouse
 digistump-avr/libraries/DigisparkMouse/usbconfig.h libraries/IO/digistump-tiny/DigiMouse
