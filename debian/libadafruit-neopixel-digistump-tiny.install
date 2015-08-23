@@ -1,1 +1,6 @@
-hardware/digistump/avr/libraries/Adafruit_NeoPixel libraries/Display/digistump-tiny
+digistump-avr/libraries/Adafruit_NeoPixel/Adafruit_NeoPixel.h libraries/Display/digistump-tiny/Adafruit_NeoPixel
+digistump-avr/libraries/Adafruit_NeoPixel/COPYING libraries/Display/digistump-tiny/Adafruit_NeoPixel
+digistump-avr/libraries/Adafruit_NeoPixel/examples/ libraries/Display/digistump-tiny/Adafruit_NeoPixel
+digistump-avr/libraries/Adafruit_NeoPixel/README.md libraries/Display/digistump-tiny/Adafruit_NeoPixel
+digistump-avr/libraries/Adafruit_NeoPixel/Adafruit_NeoPixel.cpp libraries/Display/digistump-tiny/Adafruit_NeoPixel
+digistump-avr/libraries/Adafruit_NeoPixel/keywords.txt libraries/Display/digistump-tiny/Adafruit_NeoPixel

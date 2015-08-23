@@ -1,2 +1,2 @@
-hardware/digistump/avr/libraries/WS2811/examples/ libraries/IO/digistump-tiny/WS2811
-hardware/digistump/avr/libraries/WS2811/WS2811.h libraries/IO/digistump-tiny/WS2811
+digistump-avr/libraries/WS2811/examples/ libraries/IO/digistump-tiny/WS2811
+digistump-avr/libraries/WS2811/WS2811.h libraries/IO/digistump-tiny/WS2811

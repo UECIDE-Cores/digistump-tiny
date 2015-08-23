@@ -1,6 +1,6 @@
-hardware/digistump/avr/libraries/Nunchuk/keywords.txt libraries/IO/digistump-tiny/ArduinoNunchuk
-hardware/digistump/avr/libraries/Nunchuk/ArduinoNunchuk.h libraries/IO/digistump-tiny/ArduinoNunchuk
-hardware/digistump/avr/libraries/Nunchuk/examples/ libraries/IO/digistump-tiny/ArduinoNunchuk
-hardware/digistump/avr/libraries/Nunchuk/ArduinoNunchuk.cpp libraries/IO/digistump-tiny/ArduinoNunchuk
-hardware/digistump/avr/libraries/Nunchuk/README.txt libraries/IO/digistump-tiny/ArduinoNunchuk
-hardware/digistump/avr/libraries/Nunchuk/LICENSE.txt libraries/IO/digistump-tiny/ArduinoNunchuk
+digistump-avr/libraries/Nunchuk/keywords.txt libraries/IO/digistump-tiny/ArduinoNunchuk
+digistump-avr/libraries/Nunchuk/examples/ libraries/IO/digistump-tiny/ArduinoNunchuk
+digistump-avr/libraries/Nunchuk/ArduinoNunchuk.h libraries/IO/digistump-tiny/ArduinoNunchuk
+digistump-avr/libraries/Nunchuk/README.txt libraries/IO/digistump-tiny/ArduinoNunchuk
+digistump-avr/libraries/Nunchuk/LICENSE.txt libraries/IO/digistump-tiny/ArduinoNunchuk
+digistump-avr/libraries/Nunchuk/ArduinoNunchuk.cpp libraries/IO/digistump-tiny/ArduinoNunchuk

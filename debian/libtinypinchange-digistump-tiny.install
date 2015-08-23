@@ -1,5 +1,5 @@
-hardware/digistump/avr/libraries/DigisparkTinyPinChange/Readme.md libraries/IO/digistump-tiny/TinyPinChange
-hardware/digistump/avr/libraries/DigisparkTinyPinChange/TinyPinChange.h libraries/IO/digistump-tiny/TinyPinChange
-hardware/digistump/avr/libraries/DigisparkTinyPinChange/keywords.txt libraries/IO/digistump-tiny/TinyPinChange
-hardware/digistump/avr/libraries/DigisparkTinyPinChange/examples/ libraries/IO/digistump-tiny/TinyPinChange
-hardware/digistump/avr/libraries/DigisparkTinyPinChange/TinyPinChange.cpp libraries/IO/digistump-tiny/TinyPinChange
+digistump-avr/libraries/DigisparkTinyPinChange/examples/ libraries/IO/digistump-tiny/TinyPinChange
+digistump-avr/libraries/DigisparkTinyPinChange/TinyPinChange.h libraries/IO/digistump-tiny/TinyPinChange
+digistump-avr/libraries/DigisparkTinyPinChange/TinyPinChange.cpp libraries/IO/digistump-tiny/TinyPinChange
+digistump-avr/libraries/DigisparkTinyPinChange/keywords.txt libraries/IO/digistump-tiny/TinyPinChange
+digistump-avr/libraries/DigisparkTinyPinChange/Readme.md libraries/IO/digistump-tiny/TinyPinChange

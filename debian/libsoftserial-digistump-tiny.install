@@ -1,5 +1,5 @@
-hardware/digistump/avr/libraries/DigisparkSoftSerial/examples/ libraries/Communications/digistump-tiny/SoftSerial
-hardware/digistump/avr/libraries/DigisparkSoftSerial/keywords.txt libraries/Communications/digistump-tiny/SoftSerial
-hardware/digistump/avr/libraries/DigisparkSoftSerial/SoftSerial.cpp libraries/Communications/digistump-tiny/SoftSerial
-hardware/digistump/avr/libraries/DigisparkSoftSerial/Readme.md libraries/Communications/digistump-tiny/SoftSerial
-hardware/digistump/avr/libraries/DigisparkSoftSerial/SoftSerial.h libraries/Communications/digistump-tiny/SoftSerial
+digistump-avr/libraries/DigisparkSoftSerial/SoftSerial.h libraries/Communications/digistump-tiny/SoftSerial
+digistump-avr/libraries/DigisparkSoftSerial/SoftSerial.cpp libraries/Communications/digistump-tiny/SoftSerial
+digistump-avr/libraries/DigisparkSoftSerial/Readme.md libraries/Communications/digistump-tiny/SoftSerial
+digistump-avr/libraries/DigisparkSoftSerial/keywords.txt libraries/Communications/digistump-tiny/SoftSerial
+digistump-avr/libraries/DigisparkSoftSerial/examples/ libraries/Communications/digistump-tiny/SoftSerial

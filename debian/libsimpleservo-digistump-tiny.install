@@ -1,5 +1,5 @@
-hardware/digistump/avr/libraries/DigisparkSimpleServo/SimpleServo.cpp libraries/Motor/digistump-tiny/SimpleServo
-hardware/digistump/avr/libraries/DigisparkSimpleServo/SimpleServo.h libraries/Motor/digistump-tiny/SimpleServo
-hardware/digistump/avr/libraries/DigisparkSimpleServo/README.txt libraries/Motor/digistump-tiny/SimpleServo
-hardware/digistump/avr/libraries/DigisparkSimpleServo/examples/ libraries/Motor/digistump-tiny/SimpleServo
-hardware/digistump/avr/libraries/DigisparkSimpleServo/keywords.txt libraries/Motor/digistump-tiny/SimpleServo
+digistump-avr/libraries/DigisparkSimpleServo/SimpleServo.cpp libraries/Motor/digistump-tiny/SimpleServo
+digistump-avr/libraries/DigisparkSimpleServo/README.txt libraries/Motor/digistump-tiny/SimpleServo
+digistump-avr/libraries/DigisparkSimpleServo/keywords.txt libraries/Motor/digistump-tiny/SimpleServo
+digistump-avr/libraries/DigisparkSimpleServo/examples/ libraries/Motor/digistump-tiny/SimpleServo
+digistump-avr/libraries/DigisparkSimpleServo/SimpleServo.h libraries/Motor/digistump-tiny/SimpleServo

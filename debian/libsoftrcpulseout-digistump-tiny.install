@@ -1,5 +1,5 @@
-hardware/digistump/avr/libraries/DigisparkSoftRcPulseOut/SoftRcPulseOut.h libraries/IO/digistump-tiny/SoftRcPulseOut
-hardware/digistump/avr/libraries/DigisparkSoftRcPulseOut/keywords.txt libraries/IO/digistump-tiny/SoftRcPulseOut
-hardware/digistump/avr/libraries/DigisparkSoftRcPulseOut/Readme.md libraries/IO/digistump-tiny/SoftRcPulseOut
-hardware/digistump/avr/libraries/DigisparkSoftRcPulseOut/examples/ libraries/IO/digistump-tiny/SoftRcPulseOut
-hardware/digistump/avr/libraries/DigisparkSoftRcPulseOut/SoftRcPulseOut.cpp libraries/IO/digistump-tiny/SoftRcPulseOut
+digistump-avr/libraries/DigisparkSoftRcPulseOut/SoftRcPulseOut.cpp libraries/IO/digistump-tiny/SoftRcPulseOut
+digistump-avr/libraries/DigisparkSoftRcPulseOut/Readme.md libraries/IO/digistump-tiny/SoftRcPulseOut
+digistump-avr/libraries/DigisparkSoftRcPulseOut/keywords.txt libraries/IO/digistump-tiny/SoftRcPulseOut
+digistump-avr/libraries/DigisparkSoftRcPulseOut/examples/ libraries/IO/digistump-tiny/SoftRcPulseOut
+digistump-avr/libraries/DigisparkSoftRcPulseOut/SoftRcPulseOut.h libraries/IO/digistump-tiny/SoftRcPulseOut

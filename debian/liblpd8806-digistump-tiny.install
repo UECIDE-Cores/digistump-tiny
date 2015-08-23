@@ -1,4 +1,4 @@
-hardware/digistump/avr/libraries/LPD8806/LPD8806.h libraries/IO/digistump-tiny/LPD8806
-hardware/digistump/avr/libraries/LPD8806/examples/ libraries/IO/digistump-tiny/LPD8806
-hardware/digistump/avr/libraries/LPD8806/LPD8806.cpp libraries/IO/digistump-tiny/LPD8806
-hardware/digistump/avr/libraries/LPD8806/README.md libraries/IO/digistump-tiny/LPD8806
+digistump-avr/libraries/LPD8806/LPD8806.h libraries/IO/digistump-tiny/LPD8806
+digistump-avr/libraries/LPD8806/LPD8806.cpp libraries/IO/digistump-tiny/LPD8806
+digistump-avr/libraries/LPD8806/examples/ libraries/IO/digistump-tiny/LPD8806
+digistump-avr/libraries/LPD8806/README.md libraries/IO/digistump-tiny/LPD8806
