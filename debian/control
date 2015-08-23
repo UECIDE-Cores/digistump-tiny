@@ -129,51 +129,51 @@ Description: RcSeq library for Digispark
  Some examples of use cases:
  --------------------------
  * **A landing gear retract:**
- * Lock, door and leg servos sequenced with a single RC channel
- * from a predefined position of the stick on the transmitter
- * from the 2 positions "Aux Channel" of the transmitter
+   * Lock, door and leg servos sequenced with a single RC channel
+   * from a predefined position of the stick on the transmitter
+   * from the 2 positions "Aux Channel" of the transmitter
  .
  * **Navigation lights for aircraft:**
- * Anticollision, beacon, landing lights commanded:
- * from predefined positions of the stick on the transmitter
- * from push-buttons in place of the stick potentiometer
+   * Anticollision, beacon, landing lights commanded:
+   * from predefined positions of the stick on the transmitter
+   * from push-buttons in place of the stick potentiometer
  .
  .
  * **Multi-switch:**
- * Up to 8 digital pins driven from a single RC channel
- * using the stick of the transmitter
- * using 8 push-buttons in place of the stick potentiometer
+   * Up to 8 digital pins driven from a single RC channel
+   * using the stick of the transmitter
+   * using 8 push-buttons in place of the stick potentiometer
  .
  * **Zodiac animation:**
- * A pneumatic Zodiac dropped at sea and lifted back to the deck of a ship. Drop and lift sequences commanded:
- * from predefined positions of the stick on the transmitter
- * from a regular ON/OFF switch (for demo on table without RC set)
+   * A pneumatic Zodiac dropped at sea and lifted back to the deck of a ship. Drop and lift sequences commanded:
+   * from predefined positions of the stick on the transmitter
+   * from a regular ON/OFF switch (for demo on table without RC set)
  .
  * **Animatronics sequences:**
  .
- * leg motion,
- * mouth motion,
- * eyes motion,
- * etc.
+   * leg motion,
+   * mouth motion,
+   * eyes motion,
+   * etc.
  .
  Triggers:
  --------
  .
  **Sequences** and **short actions** can be trigged by:
  .
- * a RC signal (eg: RC receiver output)
+   * a RC signal (eg: RC receiver output)
  .
- * from one or several **predefined positions of a stick** of the transmitter
+   * from one or several **predefined positions of a stick** of the transmitter
  .
- * from one or several **push-button** (keyboard) replacing a a stick of the transmitter. (**RcSeq** assumes Push-Buttons associated Pulse duration are equidistant).
+   * from one or several **push-button** (keyboard) replacing a a stick of the transmitter. (**RcSeq** assumes Push-Buttons associated Pulse duration are equidistant).
  .
- * from **Custom Keyboard** replacing a stick of the the transmitter. (The pulse durations can be defined independently for each Push-Button).
+   * from **Custom Keyboard** replacing a stick of the the transmitter. (The pulse durations can be defined independently for each Push-Button).
  .
- * from **Multi position switch** (2 pos switch, 3 pos switch, or more, eg. rotactor) replacing a stick of the the transmitter.
+   * from **Multi position switch** (2 pos switch, 3 pos switch, or more, eg. rotactor) replacing a stick of the the transmitter.
  .
- * a regular ON/OFF switch (no RC set required).
+   * a regular ON/OFF switch (no RC set required).
  .
- * a launch function call in the sketch.
+   * a launch function call in the sketch.
  .
  API/methods:
  -----------
@@ -240,7 +240,7 @@ Package: libsimpleservo-digistump-tiny
 Section: libraries
 Architecture: all
 XBSC-Group: Motor
-XBSC-Subgroup: Stepper
+XBSC-Subgroup: Servo
 Depends: digistump-tiny
 Provides: SimpleServo.h
 Description: SimpleServo library for Digipark
